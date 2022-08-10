@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="http://blog.090927.xyz/atom.xml" rel="self"/>
+  
+  <link href="http://blog.090927.xyz/"/>
+  <updated>2022-08-10T03:14:37.666Z</updated>
+  <id>http://blog.090927.xyz/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>免费领取B站大会员</title>
+    <link href="http://blog.090927.xyz/2022/07/18/kycva3/"/>
+    <id>http://blog.090927.xyz/2022/07/18/kycva3/</id>
+    <published>2022-07-18T00:00:00.000Z</published>
+    <updated>2022-08-10T03:14:37.666Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天教大家<emp>白嫖</emp>bilibili 的大会员，使用微信扫下面的二维码就可以了<img src="https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658140240342-ee84589e-04e3-47a4-91a2-b2d375c9b87b.jpeg#crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=url&amp;id=WyfsX&amp;margin=%5Bobject%20Object%5D&amp;name=IMG_20220717_162228.jpeg&amp;originHeight=1386&amp;originWidth=1040&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=156317&amp;status=done&amp;style=none&amp;title=" alt="IMG_20220717_162228.jpeg"><br>这是我白嫖到的，非常简单就能白嫖到，我也是已经白嫖到了好几天了<img src="https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658140283582-74fb48c2-5393-45a2-9ec0-4e0de366fade.jpeg#crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=url&amp;id=YDaUR&amp;margin=%5Bobject%20Object%5D&amp;name=Screenshot_20220718_183014.jpg&amp;originHeight=1600&amp;originWidth=720&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=417072&amp;status=done&amp;style=none&amp;title=" alt="Screenshot_20220718_183014.jpg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;今天教大家&lt;emp&gt;白嫖&lt;/emp&gt;bilibili 的大会员，使用微信扫下面的二维码就可以了&lt;img src=&quot;https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658140240342-ee84589e-04e3-47a</summary>
+      
+    
+    
+    
+    <category term="白嫖" scheme="http://blog.090927.xyz/categories/%E7%99%BD%E5%AB%96/"/>
+    
+    
+    <category term="分享" scheme="http://blog.090927.xyz/tags/%E5%88%86%E4%BA%AB/"/>
+    
+    <category term="白嫖" scheme="http://blog.090927.xyz/tags/%E7%99%BD%E5%AB%96/"/>
+    
+    <category term="哔哩哔哩" scheme="http://blog.090927.xyz/tags/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>白嫖4h32gLinux服务器</title>
+    <link href="http://blog.090927.xyz/2022/07/17/ge1meb/"/>
+    <id>http://blog.090927.xyz/2022/07/17/ge1meb/</id>
+    <published>2022-07-17T00:00:00.000Z</published>
+    <updated>2022-08-10T03:14:37.666Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天给大家带来一款免费的云服务器，配置是 4h32g，debian 系统。无需使用信用卡。</p><h1 id="开始操作"><a href="#开始操作" class="headerlink" title="开始操作"></a>开始操作</h1><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>先注册一个 github(如果有可跳过注册环节，注意：不要使用 QQ 邮箱注册的 github 账户)<br><a class="link"   href="https://github.com/MetaVPS/xssh" >https://github.com/MetaVPS/xssh<i class="fas fa-external-link-alt"></i></a><br>进入这个 github 仓库，点击 fork 按钮<br><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658056106717-a49ddb2b-ea09-4a2f-acca-a1137430dcf1.jpeg#crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=url&amp;id=C9WRp&amp;margin=%5Bobject%20Object%5D&amp;name=-48ea7d2325e6628e.jpg&amp;originHeight=39&amp;originWidth=162&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=5857&amp;status=done&amp;style=none&amp;title=" alt="-48ea7d2325e6628e.jpg"><br>进入”Create a new fork”后直接点击”Create”其他的都不用改</p><h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p><a class="link"   href="https://dashboard.ngrok.com/login" >https://dashboard.ngrok.com/login<i class="fas fa-external-link-alt"></i></a><br>点开上面的链接，进入后直接使用 github 账号登陆，登陆完成后在侧边栏依次点击: Getting Started-Your Authtoken，然后复制左面的令牌，那一段长长的。然后回到自己 Fork 完的仓库，编辑”config.sh”，将刚刚复制的东西填到 NGROK_TOKEN=”你复制的”，仓库地址：<a class="link"   href="https://github.com/" >https://github.com/<i class="fas fa-external-link-alt"></i></a>你的用户名/xssh。</p><h1 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h1><p><a class="link"   href="https://cloud.okteto.com/#/login" >https://cloud.okteto.com/#/login<i class="fas fa-external-link-alt"></i></a><br>点开上面的网站，同样使用 github 的账号登录，登陆好后，点击”Launch Dev Environment”，再 From 选择 Git URL，之后在”Repository URL”填写上你的仓库链接，格式：<a class="link"   href="https://github.com/" >https://github.com/<i class="fas fa-external-link-alt"></i></a>你的名字/xssh，随后，在”Branch”填写”main”，填写完后点击 Launch 按钮，等一段时间，就会显示 Running。<img src="https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658057155890-47b1e51c-1202-4d5b-aa09-799d3a7343fc.jpeg#crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=url&amp;id=qdKCf&amp;margin=%5Bobject%20Object%5D&amp;name=-5ed083b4026bebfc.jpg&amp;originHeight=120&amp;originWidth=397&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=12359&amp;status=done&amp;style=none&amp;title=" alt="-5ed083b4026bebfc.jpg"></p><h1 id="第四部"><a href="#第四部" class="headerlink" title="第四部"></a>第四部</h1><p>然后我们回到第二步给的网站，在侧边栏依次点击 Cloud Edge-Endpoints，点击后右边后有<img src="https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658057419074-79a0227c-5c52-4100-8fcd-1e881a23c160.jpeg#crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=url&amp;id=julFt&amp;margin=%5Bobject%20Object%5D&amp;name=3038ebd217291c1c.jpg&amp;originHeight=90&amp;originWidth=1149&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=17445&amp;status=done&amp;style=none&amp;title=" alt="3038ebd217291c1c.jpg"><br>这个，然后点击它，在右边会弹出一个窗口，其中有个 URL，以我的这个为例，tcp://6.tcp.ngrok.io:17065，其中，6.tcp.ngrok.io 是这台服务器的 IP 地址，17065 是这台服务器的端口。</p><h1 id="第五步"><a href="#第五步" class="headerlink" title="第五步"></a>第五步</h1><p>这样服务器就到手了，使用 ssh 连接工具连接这台服务器，在上步说了 IP 地址和端口是哪几部分，</p><blockquote><p>用户名：root<br>密码：majalaya</p></blockquote><p>之后就可以连接成功，这样就白嫖成功了。不要存放重要的资料<br>感谢 github、ngrok、okteto</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;今天给大家带来一款免费的云服务器，配置是 4h32g，debian 系统。无需使用信用卡。&lt;/p&gt;
+&lt;h1 id=&quot;开始操作&quot;&gt;&lt;a href=&quot;#开始操作&quot; class=&quot;headerlink&quot; title=&quot;开始操作&quot;&gt;&lt;/a&gt;开始操作&lt;/h1&gt;&lt;h2 id=&quot;第一步&quot;</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="http://blog.090927.xyz/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="分享" scheme="http://blog.090927.xyz/tags/%E5%88%86%E4%BA%AB/"/>
+    
+    <category term="免费" scheme="http://blog.090927.xyz/tags/%E5%85%8D%E8%B4%B9/"/>
+    
+    <category term="Linux" scheme="http://blog.090927.xyz/tags/Linux/"/>
+    
+    <category term="Debian" scheme="http://blog.090927.xyz/tags/Debian/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>蓝天白云</title>
+    <link href="http://blog.090927.xyz/2022/07/17/nos23g/"/>
+    <id>http://blog.090927.xyz/2022/07/17/nos23g/</id>
+    <published>2022-07-17T00:00:00.000Z</published>
+    <updated>2022-08-10T03:14:37.666Z</updated>
+    
+    <content type="html"><![CDATA[<p>分享一下拍到的天空。<br><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658058396367-5d7465e6-b6f3-4230-b8c3-eb6fd90f91b7.jpeg#crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=url&amp;id=YbBtg&amp;margin=%5Bobject%20Object%5D&amp;name=-36e4c6a7cb0bf794.jpeg&amp;originHeight=914&amp;originWidth=1218&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=74900&amp;status=done&amp;style=none&amp;title=" alt="-36e4c6a7cb0bf794.jpeg"><br><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658058397443-8c399def-4057-430a-a371-d5663871454f.jpeg#crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=url&amp;id=BEgNP&amp;margin=%5Bobject%20Object%5D&amp;name=-2b07dfefc839fc62.jpeg&amp;originHeight=914&amp;originWidth=1218&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=105062&amp;status=done&amp;style=none&amp;title=" alt="-2b07dfefc839fc62.jpeg"><br><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658058398994-c13abbfe-074b-4716-afc0-7657c84a41c7.jpeg#crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=url&amp;id=UhlXP&amp;margin=%5Bobject%20Object%5D&amp;name=5e13a7537e258d92.jpeg&amp;originHeight=914&amp;originWidth=1218&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=56732&amp;status=done&amp;style=none&amp;title=" alt="5e13a7537e258d92.jpeg"><br><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658058400236-29c03724-4e27-4e20-bbff-96ec6a7b28c8.jpeg#crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=url&amp;id=h4hCE&amp;margin=%5Bobject%20Object%5D&amp;name=-58326028e67a7aea.jpeg&amp;originHeight=914&amp;originWidth=1218&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=71726&amp;status=done&amp;style=none&amp;title=" alt="-58326028e67a7aea.jpeg"><br><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658058401484-67d60511-be9a-4b28-bb87-99ab3691c377.jpeg#crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=url&amp;id=qehJw&amp;margin=%5Bobject%20Object%5D&amp;name=2f3a3b41f8bbbefa.jpeg&amp;originHeight=914&amp;originWidth=1218&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=163437&amp;status=done&amp;style=none&amp;title=" alt="2f3a3b41f8bbbefa.jpeg"><br><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658058403416-3909eb39-441e-4a4b-98e7-5f4b61e44a1d.jpeg#crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=url&amp;id=mgdMf&amp;margin=%5Bobject%20Object%5D&amp;name=-56af45576cfb7bd1.jpeg&amp;originHeight=914&amp;originWidth=1218&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=184355&amp;status=done&amp;style=none&amp;title=" alt="-56af45576cfb7bd1.jpeg"><br><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658058404611-85c019fe-bd07-4724-938b-091602c72fa0.jpeg#crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=url&amp;id=KJKRY&amp;margin=%5Bobject%20Object%5D&amp;name=-c439f0c2edd2c62.jpeg&amp;originHeight=914&amp;originWidth=1218&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=72158&amp;status=done&amp;style=none&amp;title=" alt="-c439f0c2edd2c62.jpeg"><br><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658058406256-ccc9c156-cbb1-4a8b-ba12-95a95e36fe03.jpeg#crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=url&amp;id=ir7t3&amp;margin=%5Bobject%20Object%5D&amp;name=-4812d1dffa598de1.jpeg&amp;originHeight=914&amp;originWidth=1218&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=110705&amp;status=done&amp;style=none&amp;title=" alt="-4812d1dffa598de1.jpeg"><br><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658058407408-121783d1-6de4-49db-b1e1-8fa7a779a98c.jpeg#crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=url&amp;id=iSaQm&amp;margin=%5Bobject%20Object%5D&amp;name=60714901504e866d.jpeg&amp;originHeight=685&amp;originWidth=1218&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=50624&amp;status=done&amp;style=none&amp;title=" alt="60714901504e866d.jpeg"><br><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658058415742-029cb33a-75db-414e-9696-b35d930619d0.jpeg#crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=url&amp;id=kGZC1&amp;margin=%5Bobject%20Object%5D&amp;name=3360ff96ac2f4f0b.jpeg&amp;originHeight=685&amp;originWidth=1218&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=109313&amp;status=done&amp;style=none&amp;title=" alt="3360ff96ac2f4f0b.jpeg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;分享一下拍到的天空。&lt;br&gt;&lt;img src=&quot;https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658058396367-5d7465e6-b6f3-4230-b8c3-eb6fd90f91b7.jpeg#crop=0&amp;a</summary>
+      
+    
+    
+    
+    <category term="蓝天" scheme="http://blog.090927.xyz/categories/%E8%93%9D%E5%A4%A9/"/>
+    
+    
+    <category term="蓝天" scheme="http://blog.090927.xyz/tags/%E8%93%9D%E5%A4%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建此博客的意义</title>
+    <link href="http://blog.090927.xyz/2022/07/17/zx697t/"/>
+    <id>http://blog.090927.xyz/2022/07/17/zx697t/</id>
+    <published>2022-07-17T00:00:00.000Z</published>
+    <updated>2022-08-10T03:14:37.666Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="我为什么要搭建这样一个博客？"><a href="#我为什么要搭建这样一个博客？" class="headerlink" title="我为什么要搭建这样一个博客？"></a>我为什么要搭建这样一个博客？</h1><h3 id="我想把我的经验分享给大家，我会常更新高质量文章"><a href="#我想把我的经验分享给大家，我会常更新高质量文章" class="headerlink" title="我想把我的经验分享给大家，我会常更新高质量文章"></a>我想把我的经验分享给大家，我会常更新高质量文章</h3><h1 id="Q"><a href="#Q" class="headerlink" title="Q"></a>Q</h1><p><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/25653032/1658026783256-5bab90d9-a523-42a9-bb84-18c1601feb8e.jpeg#crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=url&amp;id=M7FFs&amp;margin=%5Bobject%20Object%5D&amp;name=Screenshot_20220717_105859.jpg&amp;originHeight=1600&amp;originWidth=720&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=487136&amp;status=done&amp;style=none&amp;title=" alt="Screenshot_20220717_105859.jpg"><br>聊天加我 Q</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;我为什么要搭建这样一个博客？&quot;&gt;&lt;a href=&quot;#我为什么要搭建这样一个博客？&quot; class=&quot;headerlink&quot; title=&quot;我为什么要搭建这样一个博客？&quot;&gt;&lt;/a&gt;我为什么要搭建这样一个博客？&lt;/h1&gt;&lt;h3 id=&quot;我想把我的经验分享给大家，我会常更</summary>
+      
+    
+    
+    
+    
+    <category term="你好" scheme="http://blog.090927.xyz/tags/%E4%BD%A0%E5%A5%BD/"/>
+    
+    <category term="博客" scheme="http://blog.090927.xyz/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>
